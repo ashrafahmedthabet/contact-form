@@ -1,0 +1,40 @@
+h1{
+    margin-top: 20px;
+}
+/* start form*/
+.alert{
+    margin-bottom: 10px !important;
+}
+ .warn , .success{
+    max-width:500px ;
+}
+.container form{
+    max-width: 500px;
+    
+    text-transform: capitalize;
+}
+.container form input{
+    margin-bottom: 10px;
+    padding-left: 35px !important;
+}
+form textarea{
+    height: 150px !important;
+    margin-bottom: 10px;
+}
+form input:not([type="submit"]) + i{
+    height: 0;
+    float: left;
+    position: relative;
+    color: #999;
+    top:-36px;
+    left: 10px;
+}
+form .send{
+    position: relative;
+    top: -36px;
+    left:10px;
+    color: #fff;
+    display: block;
+}
+
+/* end form*/
